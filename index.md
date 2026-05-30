@@ -12,9 +12,7 @@
 # 📹 Demo演示
 
 该手势识别我不仅实现了对于手部关节坐标的捕获绘制，还通过关键特征识别出0到9数字手势
-<video width="100%" controls>
-  <source src="gesture_recording.mp4" type="video/mp4">
-</video>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116664246997306&bvid=BV1TZVL6dEA6&cid=38728961975&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 # 🛠️ 技术方案
 
