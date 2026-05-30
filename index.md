@@ -1,20 +1,20 @@
 ---
 ---
 
-# 👤 我是谁
+# 自我介绍
 
 张老师您好，我是2025届人工智能专业本科生周齐翔，高中阶段有做过人工智能手势识别视力检测项目，积累了计算机视觉、模型部署等实战经验。我对手势识别等前沿方向有浓厚兴趣。
 
-# 💡 为什么对这个项目感兴趣
+# 为什么对这个项目感兴趣
 
 高中我做的课题就是手势识别下的视力检测系统，同样试图减轻医疗资源压力，与您的课题相契合。而且，我对于手势识别等前沿方向有浓厚兴趣，希望能在进入课题组后在您指导下掌握更多知识。
 
-# 📹 Demo演示
+# Demo演示
 
-该手势识别系统我不仅实现了对于手部关节坐标的捕获与绘制，还通过关键特征识别出0到9数字手势
+该手势识别系统不仅实现了对于手部关节坐标的捕获与绘制，还通过关键特征识别出0到9数字手势
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116664246997306&bvid=BV1TZVL6dEA6&cid=38728961975&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-# 🛠️ 技术方案
+# 技术方案
 
 - 定义`draw_hand_landmarks(frame, hand_landmarks, color=(0,255,0), thickness=2)`函数，传入手部各坐标，在每个关节点绘制实心圆并连接
 - 定义`is_finger_extended(landmarks, finger: str)`函数，能够判断一根手指是否伸直
